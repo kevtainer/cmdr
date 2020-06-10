@@ -1,0 +1,4 @@
+cmdr-project.yaml
+.tmp/
+cmdr.egg-info
+__pycache__

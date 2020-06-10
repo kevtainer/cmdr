@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cmdr"
+version = "0.1.0"
+description = ""
+authors = ["kevin crawley <kevin@nashgo.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyyaml = "^5.3.1"
+coloredlogs = "^14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
